@@ -10,8 +10,6 @@ name = str(input("What is your name?:"))
 age = int(input("How old are you?:"))
 
 if age < 20:
-    comp = "can't"
+    print(f"Hello {name}, you are under 20.")
 else:
-    comp = "can"
-
-print(f"{name} {comp} drink alcohol.")
+    print(f"Hello {name}, you are 20 or over.")
