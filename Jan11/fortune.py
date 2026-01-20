@@ -105,8 +105,8 @@ def love(overall):
     return love
 
 def check():
-    check = input("Do you want to see the points? (y or other):").lower().strip()
-    if check == "y":
+    check = input("Do you want to see the points? (if yes, press 'y'):").lower().strip()
+    if check == "y" or check == "yes":
         print(f"Overall:{luck_point}%\nHealth:{health_point}%\nStudy:{study_point}%\nLove:{love_point}%")
     else:
         print("Have a nice day!")
