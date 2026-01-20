@@ -1,0 +1,7 @@
+Your number guessing game is already a fun interactive program, but there are a few improvements and optimizations you can make to enhance its functionality and user experience:
+
+Use of break and continue: Instead of using exit, use break or continue for better flow control within your loop.
+Spell and Grammar Corrections: Ensure the prompts are user-friendly and correctly spelled. For instance, "put number" can be improved to "Please enter a valid number."
+Clear Instructions: Provide clear instructions to the user at the start of the game, explaining how the game works.
+Boundary Checks: Ensure inputs are within the expected range (1-10). If not, request the user to enter a number within the range.
+Feedback: After a wrong guess, you might provide hints, such as whether the guess was too high or too low.
