@@ -108,6 +108,8 @@ def check():
     check = input("Do you want to see the points? (if yes, press 'y'):").lower().strip()
     if check == "y" or check == "yes":
         print(f"Overall:{luck_point}%\nHealth:{health_point}%\nStudy:{study_point}%\nLove:{love_point}%")
+    elif check == "momo":
+        print("Have a nice day! (^-^)b")
     else:
         print("Have a nice day!")
 
