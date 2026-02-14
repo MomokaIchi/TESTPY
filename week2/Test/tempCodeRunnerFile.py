@@ -1,1 +1,2 @@
-cause
+(0)) # False
+# print(bool
