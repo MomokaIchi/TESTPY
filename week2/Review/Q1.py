@@ -10,4 +10,4 @@ else:
 
 # "B"
 # Because x array has contents
-# I understood correctly but?
+# I understood correctly but the answer is A
