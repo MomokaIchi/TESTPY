@@ -1,6 +1,6 @@
 # Slightly Evil Logic Test
 
-x = [] # original x = 0
+x = "" # original x = 0
 if x == False:
     print("Equal")
 if not x:
