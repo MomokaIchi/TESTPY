@@ -8,3 +8,7 @@ for v in values:
         print("T")
     else:
         print("F")
+
+# if v: means if bool(v):
+# bool("")=False, bool(0)=False, bool(None)=False, bool("hi")=True
+# FFFT

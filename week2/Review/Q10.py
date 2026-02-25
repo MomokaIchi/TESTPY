@@ -6,3 +6,5 @@
 # or 
 
 # if not password:
+
+# if not password: is safer because this can contain password=None, {}, [] and etc
