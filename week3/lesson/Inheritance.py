@@ -11,12 +11,29 @@ class Person:
     def printname(self):
         print(self.firstname, self.lastname)
 
-x = Person("John", "Doe")
-x.printname()
+# x = Person("John", "Doe")
+# x.printname()
 
 # Child Class
-class Student(Person):
-    pass
+# class Student(Person):
+#     pass
 
-x = Student("Mike", "Olsen")
+# x = Student("Mike", "Olsen")
+# x.printname()
+
+# class Student(Person):
+#     def __init__(self, fname, lname):
+#         # child's __init__ overrides the inheritance of the parent's __init__() function
+#         Person.__init__(self, fname, lname)
+#         super().__init__(fname, lname) # Equal to above
+
+class Student(Person):
+    def __init__(self, fname, lname, year):
+        super().__init__(fname, lname)
+        self.graduationyear = year
+
+    def printname(self):
+        print(self.firstname, self.lastname, self.year)
+
+x = Student("Mike", "Olsen", 2019)
 x.printname()
