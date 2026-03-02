@@ -33,7 +33,7 @@ class Student(Person):
         self.graduationyear = year
 
     def printname(self):
-        print(self.firstname, self.lastname, self.year)
+        print(self.firstname, self.lastname, self.graduationyear)
 
 x = Student("Mike", "Olsen", 2019)
 x.printname()
