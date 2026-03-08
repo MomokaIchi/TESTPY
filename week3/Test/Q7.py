@@ -5,4 +5,6 @@
 # def name(self):
 
 # insted of allowing direct access to self.name?
-# Thinkabout validation and duture flexibility
+# Think about validation and duture flexibility
+
+# ?

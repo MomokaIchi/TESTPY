@@ -9,3 +9,5 @@
 # self.__password
 
 # What are we communicating to other developpers?
+
+# To show coworker _password data should be inside the class
