@@ -8,5 +8,8 @@ class User:
     def __init__(self, name):
         self.name = name # instance value
 
-# if you change User.role = "admin", what happens to existing objects?
+# If you change User.role = "admin", what happens to existing objects?
 # Why?
+
+# Class value can't be changed from other code.
+# When 

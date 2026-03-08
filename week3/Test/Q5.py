@@ -10,3 +10,4 @@ class Admin(User):
     
 # Which greet() runs for an Admin object?
 # What concept is this demonstrating?
+
